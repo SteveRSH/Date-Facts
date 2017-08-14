@@ -3,7 +3,9 @@ console.log(chalk.yellow('Hello Steve!'));
 
 let moment = require('moment');
 
+//////
 console.log('It is ' + chalk.blue(moment().format('YYYY MM DD, h:mm:ss a')));
+
 console.log('It is the ' + chalk.magenta(moment().format('DDDo')) + ' day of the year');
 
 let hours = (moment().format('H')*3600);
